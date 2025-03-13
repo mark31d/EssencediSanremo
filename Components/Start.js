@@ -224,6 +224,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     alignItems: 'center',
     marginTop: 10,
+    marginBottom:40,
   },
   buttonText: {
     color: '#191919',
