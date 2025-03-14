@@ -27,7 +27,7 @@ workflows:
       - name: Increment build number
         script: |
           cd ios
-          agvtool new-version -all 5
+          agvtool new-version -all 6
       - name: Build IPA for distribution
         script: |
           xcode-project build-ipa \
